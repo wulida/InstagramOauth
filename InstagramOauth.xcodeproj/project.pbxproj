@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67210CFC1910996000AB1B49 /* InstagramOauto.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 67210CFB1910996000AB1B49 /* InstagramOauto.bundle */; };
 		677B4905190F8BBF00E30722 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677B4904190F8BBF00E30722 /* Foundation.framework */; };
 		677B490B190F8BBF00E30722 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 677B4909190F8BBF00E30722 /* InfoPlist.strings */; };
-		677B490F190F8BBF00E30722 /* InstagramOauth.m in Sources */ = {isa = PBXBuildFile; fileRef = 677B490E190F8BBF00E30722 /* InstagramOauth.m */; };
 		677B4916190F8BBF00E30722 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677B4915190F8BBF00E30722 /* XCTest.framework */; };
 		677B4917190F8BBF00E30722 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677B4904190F8BBF00E30722 /* Foundation.framework */; };
 		677B4919190F8BBF00E30722 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677B4918190F8BBF00E30722 /* UIKit.framework */; };
 		677B491E190F8BBF00E30722 /* InstagramOauth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677B4901190F8BBF00E30722 /* InstagramOauth.framework */; };
 		677B4924190F8BBF00E30722 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 677B4922190F8BBF00E30722 /* InfoPlist.strings */; };
 		677B4926190F8BBF00E30722 /* InstagramOauthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 677B4925190F8BBF00E30722 /* InstagramOauthTests.m */; };
+		677B493D190F8F8F00E30722 /* InstagramAccesstokenRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 677B4939190F8F8F00E30722 /* InstagramAccesstokenRequest.h */; };
+		677B493E190F8F8F00E30722 /* InstagramAccesstokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 677B493A190F8F8F00E30722 /* InstagramAccesstokenRequest.m */; };
+		677B493F190F8F8F00E30722 /* InstagramAccesstokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 677B493A190F8F8F00E30722 /* InstagramAccesstokenRequest.m */; };
+		677B4940190F8F8F00E30722 /* InstagramAuthorizeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 677B493B190F8F8F00E30722 /* InstagramAuthorizeViewController.h */; };
+		677B4941190F8F8F00E30722 /* InstagramAuthorizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677B493C190F8F8F00E30722 /* InstagramAuthorizeViewController.m */; };
+		677B4942190F8F8F00E30722 /* InstagramAuthorizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677B493C190F8F8F00E30722 /* InstagramAuthorizeViewController.m */; };
+		677B4948190F8F9F00E30722 /* InstagramAuthorizeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 677B4943190F8F9F00E30722 /* InstagramAuthorizeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		677B4949190F8F9F00E30722 /* InstagramAuthorizeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 677B4944190F8F9F00E30722 /* InstagramAuthorizeManager.m */; };
+		677B494A190F8F9F00E30722 /* InstagramAuthorizeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 677B4944190F8F9F00E30722 /* InstagramAuthorizeManager.m */; };
+		677B494B190F8F9F00E30722 /* InstagramMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 677B4945190F8F9F00E30722 /* InstagramMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		677B494C190F8F9F00E30722 /* InstagramModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 677B4946190F8F9F00E30722 /* InstagramModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		677B494D190F8F9F00E30722 /* InstagramModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 677B4947190F8F9F00E30722 /* InstagramModel.m */; };
+		677B494E190F8F9F00E30722 /* InstagramModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 677B4947190F8F9F00E30722 /* InstagramModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +49,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67210CFB1910996000AB1B49 /* InstagramOauto.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = InstagramOauto.bundle; sourceTree = "<group>"; };
 		677B4901190F8BBF00E30722 /* InstagramOauth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = InstagramOauth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		677B4904190F8BBF00E30722 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		677B4908190F8BBF00E30722 /* InstagramOauth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstagramOauth-Info.plist"; sourceTree = "<group>"; };
 		677B490A190F8BBF00E30722 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		677B490C190F8BBF00E30722 /* InstagramOauth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstagramOauth-Prefix.pch"; sourceTree = "<group>"; };
-		677B490D190F8BBF00E30722 /* InstagramOauth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstagramOauth.h; sourceTree = "<group>"; };
-		677B490E190F8BBF00E30722 /* InstagramOauth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstagramOauth.m; sourceTree = "<group>"; };
 		677B4914190F8BBF00E30722 /* InstagramOauthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramOauthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		677B4915190F8BBF00E30722 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		677B4918190F8BBF00E30722 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		677B4921190F8BBF00E30722 /* InstagramOauthTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstagramOauthTests-Info.plist"; sourceTree = "<group>"; };
 		677B4923190F8BBF00E30722 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		677B4925190F8BBF00E30722 /* InstagramOauthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstagramOauthTests.m; sourceTree = "<group>"; };
+		677B4939190F8F8F00E30722 /* InstagramAccesstokenRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramAccesstokenRequest.h; sourceTree = "<group>"; };
+		677B493A190F8F8F00E30722 /* InstagramAccesstokenRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramAccesstokenRequest.m; sourceTree = "<group>"; };
+		677B493B190F8F8F00E30722 /* InstagramAuthorizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramAuthorizeViewController.h; sourceTree = "<group>"; };
+		677B493C190F8F8F00E30722 /* InstagramAuthorizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramAuthorizeViewController.m; sourceTree = "<group>"; };
+		677B4943190F8F9F00E30722 /* InstagramAuthorizeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramAuthorizeManager.h; sourceTree = "<group>"; };
+		677B4944190F8F9F00E30722 /* InstagramAuthorizeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramAuthorizeManager.m; sourceTree = "<group>"; };
+		677B4945190F8F9F00E30722 /* InstagramMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramMacro.h; sourceTree = "<group>"; };
+		677B4946190F8F9F00E30722 /* InstagramModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramModel.h; sourceTree = "<group>"; };
+		677B4947190F8F9F00E30722 /* InstagramModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +127,16 @@
 		677B4906190F8BBF00E30722 /* InstagramOauth */ = {
 			isa = PBXGroup;
 			children = (
-				677B490D190F8BBF00E30722 /* InstagramOauth.h */,
-				677B490E190F8BBF00E30722 /* InstagramOauth.m */,
+				67210CFB1910996000AB1B49 /* InstagramOauto.bundle */,
+				677B4939190F8F8F00E30722 /* InstagramAccesstokenRequest.h */,
+				677B493A190F8F8F00E30722 /* InstagramAccesstokenRequest.m */,
+				677B493B190F8F8F00E30722 /* InstagramAuthorizeViewController.h */,
+				677B493C190F8F8F00E30722 /* InstagramAuthorizeViewController.m */,
+				677B4943190F8F9F00E30722 /* InstagramAuthorizeManager.h */,
+				677B4944190F8F9F00E30722 /* InstagramAuthorizeManager.m */,
+				677B4945190F8F9F00E30722 /* InstagramMacro.h */,
+				677B4946190F8F9F00E30722 /* InstagramModel.h */,
+				677B4947190F8F9F00E30722 /* InstagramModel.m */,
 				677B4907190F8BBF00E30722 /* Supporting Files */,
 			);
 			path = InstagramOauth;
@@ -148,6 +177,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				677B494B190F8F9F00E30722 /* InstagramMacro.h in Headers */,
+				677B494C190F8F9F00E30722 /* InstagramModel.h in Headers */,
+				677B4948190F8F9F00E30722 /* InstagramAuthorizeManager.h in Headers */,
+				677B4940190F8F8F00E30722 /* InstagramAuthorizeViewController.h in Headers */,
+				677B493D190F8F8F00E30722 /* InstagramAccesstokenRequest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				677B490B190F8BBF00E30722 /* InfoPlist.strings in Resources */,
+				67210CFC1910996000AB1B49 /* InstagramOauto.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +300,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				677B490F190F8BBF00E30722 /* InstagramOauth.m in Sources */,
+				677B493E190F8F8F00E30722 /* InstagramAccesstokenRequest.m in Sources */,
+				677B4949190F8F9F00E30722 /* InstagramAuthorizeManager.m in Sources */,
+				677B494D190F8F9F00E30722 /* InstagramModel.m in Sources */,
+				677B4941190F8F8F00E30722 /* InstagramAuthorizeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +311,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				677B4942190F8F8F00E30722 /* InstagramAuthorizeViewController.m in Sources */,
+				677B494E190F8F9F00E30722 /* InstagramModel.m in Sources */,
+				677B493F190F8F8F00E30722 /* InstagramAccesstokenRequest.m in Sources */,
+				677B494A190F8F9F00E30722 /* InstagramAuthorizeManager.m in Sources */,
 				677B4926190F8BBF00E30722 /* InstagramOauthTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -374,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -383,10 +425,7 @@
 		677B492A190F8BBF00E30722 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					"$(ARCHS_STANDARD_32_BIT)",
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -402,10 +441,7 @@
 		677B492B190F8BBF00E30722 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					"$(ARCHS_STANDARD_32_BIT)",
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -477,6 +513,7 @@
 				677B492B190F8BBF00E30722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		677B492C190F8BBF00E30722 /* Build configuration list for PBXNativeTarget "InstagramOauthTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +522,7 @@
 				677B492E190F8BBF00E30722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
